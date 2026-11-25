@@ -2,7 +2,7 @@
 
 > Fichier dupliqué dans `AGENTS.md` (Codex) et `.github/copilot-instructions.md` (GitHub Copilot). Modifier les deux à l'identique.
 
-Tenir à jour ce fichier au fil du projet et des demandes utilisateur, uniquement dans les parties suivantes : "Carte rapide du code", "Commandes", "Pièges connus".
+Tenir à jour ce fichier au fil du projet et des demandes utilisateur, uniquement dans les parties suivantes : "Projet", "Carte rapide du code", "Commandes", "Pièges connus".
 
 ## Projet
 
