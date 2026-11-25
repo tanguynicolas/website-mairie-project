@@ -207,9 +207,9 @@ def render(d):
     <div class="wrap hero-grid">
       <div class="hero-txt">
         <p class="kicker">Commune de Méteren · Nord</p>
-        <form class="ask" data-search-form role="search">
-          <label for="q8"><span class="ask-hi">Bonjour,</span> je cherche</label>
-          <span class="ask-field"><input id="q8" type="search" placeholder="une démarche, un horaire…" autocomplete="off"><button type="submit" aria-label="Lancer la recherche">{ms("arrow_forward")}</button></span>
+        <form class="site-search" data-search-form role="search">
+          <label for="q8">Que recherchez-vous&nbsp;?</label>
+          <span class="search-field"><span class="ms" aria-hidden="true">search</span><input id="q8" type="search" placeholder="Ex. : horaires, cantine, urbanisme" autocomplete="off"><button type="submit" aria-label="Rechercher"><span>Rechercher</span>{ms("arrow_forward")}</button></span>
         </form>
         <p class="prose">{prose}</p>
       </div>
