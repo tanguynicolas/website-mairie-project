@@ -4,7 +4,7 @@ from hashlib import sha256
 from pathlib import Path
 
 NAMES = {2: "Institutionnel", 3: "Terroir flamand", 4: "Éditorial", 5: "Continuité", 6: "Bento",
-         7: "Dynamique et illustré"}
+         7: "Dynamique et illustré", 8: "Bleu de Flandre"}
 DEFAULT_NAME = "Classique contemporain"
 MAP = "https://www.openstreetmap.org/export/embed.html?bbox=2.6830%2C50.7360%2C2.7030%2C50.7450&layer=mapnik&marker=50.7406%2C2.6930"
 AERIAL = "https://static.neopse.com/medias/p/1297/site/25/b7/93/25b793ab66c8be55d2f536a4b8b7cc27e727af6e.jpg?v=v1"

@@ -1,6 +1,6 @@
 # Projet de site pour la mairie de Méteren
 
-Prototype statique de refonte du site de la commune de Méteren. Il comprend une proposition complète et six variantes de page d'accueil et de menu.
+Prototype statique de refonte du site de la commune de Méteren. Il comprend une proposition complète et sept variantes de page d'accueil et de menu.
 
 ## Consulter les propositions
 
@@ -10,12 +10,12 @@ Depuis la racine du dépôt, démarrer un serveur local :
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-Ouvrir ensuite [la sélection des styles](http://localhost:8000/styles/index.html). Le style 1 donne accès au site complet ; les liens des styles 2 à 7 pointent vers ses pages.
+Ouvrir ensuite [la sélection des styles](http://localhost:8000/styles/index.html). Le style 1 donne accès au site complet ; les liens des styles 2 à 8 pointent vers ses pages.
 
 ## Organisation
 
 - `site/` : site statique complet du style 1.
-- `styles/` : sélection des styles et pages d'accueil des styles 2 à 7.
+- `styles/` : sélection des styles et pages d'accueil des styles 2 à 8.
 - `styles_src/`, `st2.py` à `st7.py`, `st_data.py`, `st_lib.py` et `gen_styles.py` : sources des variantes.
 - `pages/`, `assets/` et `build.py` : données et sources utilisées pour générer le site complet. Les pages sources sont une copie du contenu public, sans les scripts tiers du site d'origine.
 

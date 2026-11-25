@@ -25,6 +25,7 @@ DESC = {
     5: "Reprend les couleurs du site actuel (vert d'eau, bleu ciel, marine) en version moderne et arrondie. Barre de menu marine avec icônes et panneaux pastel.",
     6: "Grille de tuiles « bento » sur fond grège, accent jaune : tout est visible d'un coup d'œil. En-tête flottant en pilule et méga-menu en carte.",
     7: "Rompt avec l'organisation actuelle : paysage illustré des Monts de Flandre, fil « En bref » défilant, entrée par profil (« Vous êtes… »), agenda en billets, découverte en cartes postales. Une couleur par rubrique.",
+    8: "Identité faïence bleu de Flandre sur porcelaine. Recherche en phrase « Bonjour, je cherche… », assiette de Delft qui tourne pour explorer les rubriques, actualités en accordéon, vrai calendrier cliquable et sommaire en tiroir.",
 }
 cards = (
     f'<a class="c" href="../site/index.html"><img src="{asset_url("thumbs/default.png")}" alt="">'
@@ -57,7 +58,7 @@ selector_css = '<link rel="stylesheet" href="../styles/selector.css">'
 selector = "<!-- style-selector:start -->" + proto_bar(1, "../styles/") + "<!-- style-selector:end -->"
 for path in Path("site").glob("*.html"):
     content = path.read_text(encoding="utf-8")
-    content = re.sub(r"<!-- style-selector:start -->.*?<!-- style-selector:end -->", "", content, flags=re.S)
+    content = re.sub(r"<!-- style-selector:start -->.*?<!-- style-selector:end -->\n?", "", content, flags=re.S)
     if selector_css not in content:
         content = content.replace("</head>", selector_css + "\n</head>")
     content = content.replace("</body>", selector + "\n</body>")
