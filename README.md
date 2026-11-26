@@ -10,7 +10,9 @@ Depuis la racine du dépôt, démarrer un serveur local :
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-Ouvrir ensuite [la sélection des styles](https://tanguynicolas.github.io/website-mairie-project/styles/index.html). Le style 1 donne accès au site complet ; les liens des styles 2 à 8 pointent vers ses pages.
+Ouvrir ensuite [la sélection des styles](http://localhost:8000/styles/index.html). Le style 1 donne accès au site complet ; les liens des styles 2 à 8 pointent vers ses pages.
+
+Sinon, consultation [depuis GitHub Pages](https://tanguynicolas.github.io/website-mairie-project/styles/index.html).
 
 ## Organisation
 
